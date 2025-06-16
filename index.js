@@ -48,3 +48,4 @@ cron.schedule("30 3 * * 1-5", () => {
   makeCall();
 });
 
+require("http").createServer(() => {}).listen(10000);
